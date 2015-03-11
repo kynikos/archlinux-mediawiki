@@ -82,12 +82,15 @@ a:visited,
     color: #666;
 }
 a:hover,
-#p-personal li a:hover,
 #toc a:hover,
-#bodyContent a:hover.external {
+#p-cactions li a:hover,
+#p-personal li a:hover,
+#p-cactions li a:visited:hover,
+#p-personal li a:visited:hover,
+#bodyContent a:hover.external,
+#bodyContent a:hover.extiw {
+    color: #07b;
     text-decoration: underline;
-    background-color: transparent;
-    color: #999;
 }
 a:focus,
 a:active,
