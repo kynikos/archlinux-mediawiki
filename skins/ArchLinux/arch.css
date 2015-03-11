@@ -78,8 +78,10 @@ a:link,
     color: #07b;
 }
 a:visited,
-#bodyContent a:visited.external {
-    color: #666;
+#toc a:visited,
+#bodyContent a:visited.external,
+#bodyContent a:visited.extiw {
+    color: #357;
 }
 a:hover,
 #toc a:hover,
