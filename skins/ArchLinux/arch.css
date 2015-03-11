@@ -77,12 +77,6 @@ a:link,
     outline: none;
     color: #07b;
 }
-a:visited,
-#toc a:visited,
-#bodyContent a:visited.external,
-#bodyContent a:visited.extiw {
-    color: #357;
-}
 a:hover,
 #toc a:hover,
 #p-cactions li a:hover,
@@ -93,6 +87,12 @@ a:hover,
 #bodyContent a:hover.extiw {
     color: #07b;
     text-decoration: underline;
+}
+a:visited,
+#toc a:visited,
+#bodyContent a:visited.external,
+#bodyContent a:visited.extiw {
+    color: #357;
 }
 a:visited:hover,
 #toc a:visited:hover,
