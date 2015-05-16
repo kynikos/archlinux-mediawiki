@@ -59,10 +59,10 @@ ul,
 #wikiPreview > div.mw-content-rtl a {
     font-weight: bold;
 }
-#bodyContent #toc a,
+#toc a,
 #bodyContent .special li > a,
 #bodyContent .special li span a,
-#bodyContent #pagehistory a {
+#pagehistory a {
     font-weight: normal;
 }
 a:link,
@@ -83,7 +83,7 @@ a:visited,
 }
 a:hover,
 #p-personal li a:hover,
-#bodyContent #toc a:hover,
+#toc a:hover,
 #bodyContent a:hover.external {
     text-decoration: underline;
     background-color: transparent;
@@ -125,7 +125,7 @@ a.new,
 }
 
 /* shrink the content just enough to show off the borders */
-div#globalWrapper {
+#globalWrapper {
     width: 99%;
 }
 
@@ -141,7 +141,7 @@ div#globalWrapper {
 .pBody {
     border: 1px solid #ddd;
 }
-div#content {
+#content {
     border: 1px solid #ccc;
 }
 
@@ -149,7 +149,7 @@ div#content {
 #p-logo {
     display: none !important;
 }
-div#column-one {
+#column-one {
     padding-top: 36px;
 }
 
@@ -160,7 +160,7 @@ div#column-one {
 }
 
 /* clean up the footer */
-div#footer {
+#footer {
     color: #888;
     background-color: transparent;
     border-top: none;
