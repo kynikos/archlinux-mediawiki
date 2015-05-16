@@ -23,3 +23,5 @@
 #archnavbar ul#archnavbarlist li a { color: #999; font-weight: bold !important; text-decoration: none !important; }
 #archnavbar ul li a:hover { color: white !important; text-decoration: underline !important; }
 
+/* highlight current website in the navbar */
+#archnavbar ul li.anb-selected a { color: white !important; }
