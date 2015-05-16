@@ -94,6 +94,13 @@ a:hover,
     color: #07b;
     text-decoration: underline;
 }
+a:visited:hover,
+#toc a:visited:hover,
+#bodyContent a:visited:hover.external,
+#bodyContent a:visited:hover.extiw {
+    color: #357;
+    text-decoration: underline;
+}
 a:focus,
 a:active,
 #toc a:focus,
