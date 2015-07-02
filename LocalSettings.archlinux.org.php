@@ -24,3 +24,9 @@ $wgHiddenPrefs = array(
 
 # uploads
 $wgEnableUploads = true;
+
+
+
+
+$wgGroupPermissions['sysop']['pagelang'] = true;
+$wgPageLanguageUseDB = true;
