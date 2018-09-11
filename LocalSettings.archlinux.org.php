@@ -214,6 +214,7 @@ $wgGroupPermissions['*']['edit'] = false;
 # initialize custom groups *before* modifying the default ones
 $wgGroupPermissions['archdev'] = $wgGroupPermissions['sysop'];
 $wgGroupPermissions['archtu'] = $wgGroupPermissions['sysop'];
+$wgGroupPermissions['archstaff'] = $wgGroupPermissions['sysop'];
 
 # extra rights for admins
 $wgGroupPermissions['sysop']['deleterevision']  = true;
@@ -248,6 +249,12 @@ $wgGroupPermissions['sysop']['editarchtuprotected'] = true;
 $wgGroupPermissions['maintainer']['editarchtuprotected'] = true;
 $wgGroupPermissions['archdev']['editarchtuprotected'] = true;
 $wgGroupPermissions['archtu']['editarchtuprotected'] = true;
+$wgRestrictionLevels[] = 'editarchstaffprotected';
+$wgGroupPermissions['sysop']['editarchstaffprotected'] = true;
+$wgGroupPermissions['maintainer']['editarchstaffprotected'] = true;
+$wgGroupPermissions['archdev']['editarchstaffprotected'] = true;
+$wgGroupPermissions['archtu']['editarchstaffprotected'] = true;
+$wgGroupPermissions['archstaff']['editarchstaffprotected'] = true;
 
 $wgEnableWriteAPI = true;
 # disable user account creation via API
