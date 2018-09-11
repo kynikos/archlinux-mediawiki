@@ -237,6 +237,9 @@ $wgGroupPermissions['maintainer']['unwatchedpages'] = true;
 $wgGroupPermissions['maintainer']['deletedhistory'] = true;
 $wgGroupPermissions['maintainer']['deletedtext'] = true;
 
+# translators' rights
+$wgGroupPermissions['translator']['unwatchedpages'] = true;
+
 # additional page-protection levels
 $wgRestrictionLevels[] = 'editmaintainerprotected';
 $wgGroupPermissions['sysop']['editmaintainerprotected'] = true;
