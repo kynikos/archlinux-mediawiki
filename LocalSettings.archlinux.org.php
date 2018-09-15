@@ -211,6 +211,10 @@ $wgFooterIcons = ['copyright' => ['copyright' => '']];
 ##
 
 $wgGroupPermissions[] = 'maintainer';
+$wgGroupPermissions[] = 'translator';
+$wgGroupPermissions[] = 'archdev';
+$wgGroupPermissions[] = 'archtu';
+$wgGroupPermissions[] = 'archstaff';
 
 
 ##
