@@ -232,6 +232,11 @@ $wgGroupPermissions['maintainer']['unwatchedpages'] = true;
 $wgGroupPermissions['maintainer']['deletedhistory'] = true;
 $wgGroupPermissions['maintainer']['deletedtext'] = true;
 
+# additional page-protection levels
+$wgRestrictionLevels[] = 'editmaintainerprotected';
+$wgGroupPermissions['sysop']['editmaintainerprotected'] = true;
+$wgGroupPermissions['maintainer']['editmaintainerprotected'] = true;
+
 $wgEnableWriteAPI = true;
 # disable user account creation via API
 $wgAPIModules['createaccount'] = 'ApiDisabled';
