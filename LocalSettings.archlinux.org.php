@@ -211,6 +211,9 @@ $wgEmailConfirmToEdit = true;
 $wgDisableAnonTalk = true;
 $wgGroupPermissions['*']['edit'] = false;
 
+# initialize custom groups *before* modifying the default ones
+$wgGroupPermissions['archdev'] = $wgGroupPermissions['sysop'];
+
 # extra rights for admins
 $wgGroupPermissions['sysop']['deleterevision']  = true;
 
@@ -236,6 +239,9 @@ $wgGroupPermissions['maintainer']['deletedtext'] = true;
 $wgRestrictionLevels[] = 'editmaintainerprotected';
 $wgGroupPermissions['sysop']['editmaintainerprotected'] = true;
 $wgGroupPermissions['maintainer']['editmaintainerprotected'] = true;
+$wgRestrictionLevels[] = 'editarchdevprotected';
+$wgGroupPermissions['sysop']['editarchdevprotected'] = true;
+$wgGroupPermissions['archdev']['editarchdevprotected'] = true;
 
 $wgEnableWriteAPI = true;
 # disable user account creation via API
